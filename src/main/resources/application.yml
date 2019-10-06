@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://192.168.57.120:27117,192.168.57.120:27118,192.168.57.120:27119/test?slaveOk=true&replicaSet=rs&write=2&readPreference=secondaryPreferred&connectTimeoutMS=300000
